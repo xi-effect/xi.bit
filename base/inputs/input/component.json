@@ -1,0 +1,13 @@
+{
+  "componentId": {
+    "name": "inputs/input",
+    "scope": "xieffect.base"
+  },
+  "propagate": false,
+  "extensions": {
+    "teambit.envs/envs": {
+      "env": "teambit.react/react"
+    },
+    "teambit.react/react": {}
+  }
+}
