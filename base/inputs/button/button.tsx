@@ -1,16 +1,16 @@
 import React, { ReactNode } from 'react';
-import { Button as MButton, ButtonProps as MButtonProps } from '@mui/material';
+import { Button as MuiButton, ButtonProps as MuiButtonProps } from '@mui/material';
 
 export type ButtonProps = {
   /**
    * a node to be rendered in the special component.
    */
   children?: ReactNode;
-} & MButtonProps;
+} & MuiButtonProps;
 
 export function Button({ children, ...props }: ButtonProps) {
   return (
-    <MButton
+    <MuiButton
       sx={{
         textTransform: 'capitalize',
         height: '64px',
@@ -29,6 +29,6 @@ export function Button({ children, ...props }: ButtonProps) {
       {...props}
     >
       {children}
-    </MButton>
+    </MuiButton>
   );
 }

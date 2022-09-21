@@ -9,6 +9,19 @@
  */
 
 {
+    "envs/xireact": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "xieffect.base",
+        "mainFile": "index.ts",
+        "rootDir": "base/envs/xireact",
+        "config": {
+            "teambit.envs/env": {},
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
+    },
     "icons/add": {
         "scope": "",
         "version": "",
@@ -35,6 +48,32 @@
         "defaultScope": "xieffect.base",
         "mainFile": "index.ts",
         "rootDir": "base/inputs/input"
+    },
+    "theme/provider": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "xieffect.base",
+        "mainFile": "index.ts",
+        "rootDir": "base/theme/provider",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "theme/scheme": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "xieffect.base",
+        "mainFile": "index.ts",
+        "rootDir": "base/theme/scheme",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }
