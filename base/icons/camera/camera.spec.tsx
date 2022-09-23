@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { BasicAdd } from './add.composition';
+import { BasicCamera } from './camera.composition';
 
 it('should render with the correct role graphics-document', () => {
-  const { getByRole } = render(<BasicAdd />);
+  const { getByRole } = render(<BasicCamera />);
   const rendered = getByRole('graphics-document');
   expect(rendered).toBeTruthy();
 });

@@ -1,5 +1,3 @@
-import { Theme } from "@mui/material";
-
 const typography = {
   htmlFontSize: 10,
   fontFamily: 'Inter, Arial',
@@ -92,17 +90,23 @@ const paletteDark = {
 
 export type SchemeProps = {
   /**
-   * a node to be rendered in the special component.
+   * palette mode.
    */
   mode?: 'light' | 'dark';
 };
 
 export function getScheme({ mode }: SchemeProps) {
+  const theme = {
+    typography: {
+      ...typography,
+    },
+    breakpoints: {
+      ...breakpoints,
+    },
+    palette: {
+      ...(mode === 'light' ? paletteLight : paletteDark),
+    },
+  };
 
-  const theme: Theme = {
-    // typography: {
-    //   ...typography,
-    // },
-  }
   return theme;
-};
+}
