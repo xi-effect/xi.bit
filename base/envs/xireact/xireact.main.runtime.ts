@@ -19,15 +19,14 @@ export class XireactMain {
   static runtime = MainRuntime;
 
   static async provider([react, envs]: [ReactMain, EnvsMain]) {
-
     //const webpackModifiers: UseWebpackModifiers = {
-      //  previewConfig: [previewConfigTransformer],
-      //  devServerConfig: [devServerConfigTransformer],
+    //  previewConfig: [previewConfigTransformer],
+    //  devServerConfig: [devServerConfigTransformer],
     //};
 
     //const tsModifiers: UseTypescriptModifiers = {
-      //  devConfig: [devConfigTransformer],
-      //  buildConfig: [buildConfigTransformer],
+    //  devConfig: [devConfigTransformer],
+    //  buildConfig: [buildConfigTransformer],
     //};
 
     const XireactEnv = react.compose([
@@ -76,10 +75,43 @@ export class XireactMain {
        * Uncomment types to include version 17.0.3 of the types package
        */
       react.overrideDependencies({
+        dependencies: {
+          '@mui/material': '-',
+          react: '-',
+          'react-dom': '-',
+          '@testing-library/react': '-',
+          '@nitsan770/mui.theme.theme-provider': '-',
+        },
         devDependencies: {
-          // '@types/react': '17.0.3'
-        }
-      })
+          '@mui/material': '-',
+          react: '-',
+          'react-dom': '-',
+          '@testing-library/react': '-',
+          '@nitsan770/mui.theme.theme-provider': '-',
+        },
+        peerDependencies: {
+          '@mui/material': {
+            version: '5.2.1',
+            resolveFromEnv: true,
+          },
+          '@testing-library/react': {
+            version: '^5.0.6',
+            resolveFromEnv: true,
+          },
+          react: {
+            version: '^17.0.2',
+            resolveFromEnv: true,
+          },
+          'react-dom': {
+            version: '^17.0.2',
+            resolveFromEnv: true,
+          },
+          '@nitsan770/mui.theme.theme-provider': {
+            version: 'latest',
+            resolveFromEnv: true,
+          },
+        },
+      }),
     ]);
     envs.registerEnv(XireactEnv);
     return new XireactMain();

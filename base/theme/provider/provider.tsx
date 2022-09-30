@@ -18,7 +18,7 @@ export function ThemeProvider({
   children,
 }: ThemeProviderProps) {
   const theme: Theme = React.useMemo(
-    () => createTheme(getScheme(mode)),
+    () => createTheme(), // getScheme(mode)
     [mode]
   );
 

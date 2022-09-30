@@ -10,330 +10,166 @@
 
 {
     "envs/xireact": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/envs/xireact",
-        "config": {
-            "teambit.envs/env": {},
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            }
-        }
+        "rootDir": "base/envs/xireact"
     },
     "icons/account": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/account",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/account"
     },
     "icons/add": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/add",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/add"
     },
     "icons/announce": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/announce",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/announce"
     },
     "icons/arrow": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/arrow",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/arrow"
     },
     "icons/burger": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/burger",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/burger"
     },
     "icons/calendar": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/calendar",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/calendar"
     },
     "icons/camera": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/camera",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/camera"
     },
     "icons/chat": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/chat",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/chat"
     },
     "icons/check": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/check",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/check"
     },
     "icons/clip": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/clip",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/clip"
     },
     "icons/close": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/close",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/close"
     },
     "icons/exit": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/exit",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/exit"
     },
     "icons/eyeoff": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/eyeoff",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/eyeoff"
     },
     "icons/eyeon": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/eyeon",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/eyeon"
     },
     "icons/file": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/file",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/file"
     },
     "icons/home": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/home",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/home"
     },
     "icons/invite": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/invite",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/invite"
     },
     "icons/notification": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/notification",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/notification"
     },
     "icons/send": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/send",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/send"
     },
     "icons/settings": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/settings",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/settings"
     },
     "icons/task": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/task",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/icons/task"
+    },
+    "images/uavatar": {
+        "scope": "xieffect.base",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "base/images/uavatar"
     },
     "inputs/button": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "base/inputs/button"
     },
     "inputs/input": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "base/inputs/input"
     },
     "theme/provider": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/theme/provider",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/theme/provider"
     },
     "theme/scheme": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "xieffect.base",
+        "scope": "xieffect.base",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/theme/scheme",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "base/theme/scheme"
     },
     "$schema-version": "15.0.0"
 }
