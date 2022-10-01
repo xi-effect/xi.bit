@@ -1,14 +1,10 @@
 {
   "componentId": {
-    "name": "inputs/button",
-    "scope": "xieffect.base"
+    "scope": "xieffect.base",
+    "name": "inputs/button"
   },
   "propagate": false,
   "extensions": {
-    "teambit.envs/envs": {
-      "env": "teambit.react/react"
-    },
-    "teambit.react/react": {},
     "teambit.dependencies/dependency-resolver": {
       "policy": {
         "dependencies": {
@@ -17,6 +13,10 @@
           "@emotion/react": "^11.9.3"
         }
       }
+    },
+    "xieffect.base/envs/xireact@0.0.1": {},
+    "teambit.envs/envs": {
+      "env": "xieffect.base/envs/xireact"
     }
   }
 }

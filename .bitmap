@@ -149,7 +149,7 @@
     },
     "inputs/button": {
         "scope": "xieffect.base",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base/inputs/button"
     },
@@ -161,13 +161,13 @@
     },
     "theme/provider": {
         "scope": "xieffect.base",
-        "version": "0.0.1",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "base/theme/provider"
     },
     "theme/scheme": {
         "scope": "xieffect.base",
-        "version": "0.0.1",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "base/theme/scheme"
     },
