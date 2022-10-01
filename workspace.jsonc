@@ -41,7 +41,8 @@
       "dependencies": {
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@typescript-eslint/eslint-plugin": "4.29.3",
-        "@xieffect/base.theme.scheme": "0.0.4",
+        "@xieffect/base.theme.provider": "0.0.5",
+        "@xieffect/base.theme.scheme": "0.0.5",
         "eslint-import-resolver-node": "0.3.6",
         "eslint-plugin-import": "2.22.1",
         "eslint-plugin-jest": "24.4.0",

@@ -20,9 +20,9 @@ export function ThemeProvider({
   mode = 'light',
   children,
 }: ThemeProviderProps) {
-  // const optionsTheme = getScheme(mode) as ThemeOptions;
+  const optionsTheme = getScheme(mode) as ThemeOptions;
 
-  const theme: Theme = React.useMemo(() => createTheme(), [mode]); // optionsTheme
+  const theme: Theme = React.useMemo(() => createTheme(optionsTheme), [mode]);
 
   return <MuiThemeProvider theme={theme}>{children}</MuiThemeProvider>;
 }

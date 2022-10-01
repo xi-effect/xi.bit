@@ -1,5 +1,3 @@
-import { PaletteMode } from '@mui/material';
-
 const typography = {
   htmlFontSize: 10,
   fontFamily: 'Inter, Arial',
@@ -90,7 +88,7 @@ const paletteDark = {
   },
 };
 
-export function getScheme(mode: 'light' | 'dark') {
+export function getScheme(mode: string) {
   const colorPalette = mode === 'light' ? paletteLight : paletteDark;
 
   const theme = {

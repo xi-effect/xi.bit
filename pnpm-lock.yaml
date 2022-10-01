@@ -19,7 +19,8 @@ importers:
       '@types/react-dom': '>=17.0.5 <18.0.0'
       '@types/testing-library__jest-dom': 5.9.5
       '@typescript-eslint/eslint-plugin': 4.29.3
-      '@xieffect/base.theme.scheme': 0.0.4
+      '@xieffect/base.theme.provider': 0.0.5
+      '@xieffect/base.theme.scheme': 0.0.5
       core-js: '>=3.0.0 <4.0.0'
       eslint-import-resolver-node: 0.3.6
       eslint-plugin-import: 2.22.1
@@ -37,6 +38,7 @@ importers:
       '@teambit/harmony': registry.npmjs.org/@teambit/harmony/0.3.3
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.1.5_sfoxds7t5ydpegc3knd667wn6m
       '@typescript-eslint/eslint-plugin': registry.npmjs.org/@typescript-eslint/eslint-plugin/4.29.3
+      '@xieffect/base.theme.provider': link:base/theme/provider
       '@xieffect/base.theme.scheme': link:base/theme/scheme
       core-js: registry.npmjs.org/core-js/3.25.2
       eslint-import-resolver-node: registry.npmjs.org/eslint-import-resolver-node/0.3.6

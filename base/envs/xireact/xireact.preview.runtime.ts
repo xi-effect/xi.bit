@@ -1,6 +1,6 @@
 import { PreviewRuntime } from '@teambit/preview';
 import { ReactAspect, ReactPreview } from '@teambit/react';
-// import { ThemeProvider } from 'xieffect/base.theme.provider'; 
+import { ThemeProvider } from '@xieffect/base.theme.provider'; 
 import { XireactAspect } from './xireact.aspect';
 
 export class XireactPreviewMain {
@@ -11,7 +11,7 @@ export class XireactPreviewMain {
   static async provider([react]: [ReactPreview]) {
     const xireactPreviewMain = new XireactPreviewMain();
 
-    // react.registerProvider([ThemeProvider]); 
+    react.registerProvider([ThemeProvider]); 
 
     return xireactPreviewMain;
   }

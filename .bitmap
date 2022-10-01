@@ -13,139 +13,277 @@
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/envs/xireact"
+        "rootDir": "base/envs/xireact",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/account": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/account"
+        "rootDir": "base/icons/account",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/add": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/add"
+        "rootDir": "base/icons/add",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/announce": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/announce"
+        "rootDir": "base/icons/announce",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/arrow": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/arrow"
+        "rootDir": "base/icons/arrow",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/burger": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/burger"
+        "rootDir": "base/icons/burger",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/calendar": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/calendar"
+        "rootDir": "base/icons/calendar",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/camera": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/camera"
+        "rootDir": "base/icons/camera",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/chat": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/chat"
+        "rootDir": "base/icons/chat",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/check": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/check"
+        "rootDir": "base/icons/check",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/clip": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/clip"
+        "rootDir": "base/icons/clip",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/close": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/close"
+        "rootDir": "base/icons/close",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/exit": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/exit"
+        "rootDir": "base/icons/exit",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/eyeoff": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/eyeoff"
+        "rootDir": "base/icons/eyeoff",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/eyeon": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/eyeon"
+        "rootDir": "base/icons/eyeon",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/file": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/file"
+        "rootDir": "base/icons/file",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/home": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/home"
+        "rootDir": "base/icons/home",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/invite": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/invite"
+        "rootDir": "base/icons/invite",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/notification": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/notification"
+        "rootDir": "base/icons/notification",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/send": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/send"
+        "rootDir": "base/icons/send",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/settings": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/settings"
+        "rootDir": "base/icons/settings",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "icons/task": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/icons/task"
+        "rootDir": "base/icons/task",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "images/uavatar": {
         "scope": "xieffect.base",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "base/images/uavatar"
+        "rootDir": "base/images/uavatar",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "inputs/button": {
         "scope": "xieffect.base",
@@ -163,13 +301,25 @@
         "scope": "xieffect.base",
         "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "base/theme/provider"
+        "rootDir": "base/theme/provider",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "theme/scheme": {
         "scope": "xieffect.base",
         "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "base/theme/scheme"
+        "rootDir": "base/theme/scheme",
+        "config": {
+            "xieffect.base/envs/xireact": {},
+            "teambit.envs/envs": {
+                "env": "xieffect.base/envs/xireact"
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }

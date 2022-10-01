@@ -1,13 +1,13 @@
 {
   "componentId": {
-    "name": "inputs/input",
-    "scope": "xieffect.base"
+    "scope": "xieffect.base",
+    "name": "inputs/input"
   },
   "propagate": false,
   "extensions": {
+    "xieffect.base/envs/xireact@0.0.1": {},
     "teambit.envs/envs": {
-      "env": "teambit.react/react"
-    },
-    "teambit.react/react": {}
+      "env": "xieffect.base/envs/xireact"
+    }
   }
 }
