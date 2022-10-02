@@ -1,22 +1,23 @@
 {
   "componentId": {
     "scope": "xieffect.base",
-    "name": "inputs/button"
+    "name": "inputs/button",
+    "version": "0.0.1"
   },
   "propagate": false,
   "extensions": {
-    "teambit.dependencies/dependency-resolver": {
-      "policy": {
-        "dependencies": {
-          "@mui/material": "^5.9.1",
-          "@emotion/styled": "^11.9.3",
-          "@emotion/react": "^11.9.3"
-        }
-      }
-    },
     "xieffect.base/envs/xireact@0.0.1": {},
     "teambit.envs/envs": {
       "env": "xieffect.base/envs/xireact"
-    }
+    },
+    "teambit.dependencies/dependency-resolver": {},
+    "teambit.compilation/compiler": {},
+    "teambit.harmony/application": {},
+    "teambit.component/dev-files": {},
+    "teambit.compositions/compositions": {},
+    "teambit.preview/preview": {},
+    "teambit.pkg/pkg": {},
+    "teambit.docs/docs": {},
+    "teambit.pipelines/builder": {}
   }
 }

@@ -39,10 +39,10 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@mui/material": "5.10.7",
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@typescript-eslint/eslint-plugin": "4.29.3",
-        "@xieffect/base.theme.provider": "0.0.5",
-        "@xieffect/base.theme.scheme": "0.0.5",
+        "@xieffect/base.envs.xireact": "0.0.1",
         "eslint-import-resolver-node": "0.3.6",
         "eslint-plugin-import": "2.22.1",
         "eslint-plugin-jest": "24.4.0",
@@ -51,6 +51,8 @@
         "eslint-plugin-react": "7.25.1"
       },
       "peerDependencies": {
+        "@emotion/react": "11.10.4",
+        "@emotion/styled": "11.10.4",
         "@testing-library/react": "^12.1.5",
         "react": "17.0.2",
         "react-dom": "17.0.2"
@@ -65,5 +67,9 @@
    * wrap the rule with curly brackets (e.g. `"{ui/*}": {}`)
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
-  "teambit.workspace/variants": {}
+  "teambit.workspace/variants": {
+    "{inputs/**}": {
+      "xieffect.base/envs/xireact": {}
+    }
+  }
 }

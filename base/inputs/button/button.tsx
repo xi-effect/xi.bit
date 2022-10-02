@@ -19,10 +19,11 @@ export function Button({ children, ...props }: ButtonProps) {
         fontWeight: 500,
         fontSize: 18,
         lineHeight: '22px',
-        backgroundColor: '#445AFF',
+        color: 'primary.main',
+        // backgroundColor: '#445AFF',
         boxShadow: 'none',
         '&:hover': {
-          backgroundColor: '#697BFF',
+          // backgroundColor: '#697BFF',
           boxShadow: 'none',
         },
       }}

@@ -80,14 +80,14 @@ export class XireactMain {
           react: '-',
           'react-dom': '-',
           '@testing-library/react': '-',
-          '@nitsan770/mui.theme.theme-provider': '-',
+          '@xieffect/base.theme.provider': '-',
         },
         devDependencies: {
           '@mui/material': '-',
           react: '-',
           'react-dom': '-',
           '@testing-library/react': '-',
-          '@nitsan770/mui.theme.theme-provider': '-',
+          '@xieffect/base.theme.provider': '-',
         },
         peerDependencies: {
           '@mui/material': {
@@ -106,7 +106,7 @@ export class XireactMain {
             version: '^17.0.2',
             resolveFromEnv: true,
           },
-          '@nitsan770/mui.theme.theme-provider': {
+          '@xieffect/base.theme.provider': {
             version: 'latest',
             resolveFromEnv: true,
           },

@@ -21,8 +21,8 @@ export function ThemeProvider({
   children,
 }: ThemeProviderProps) {
   const optionsTheme = getScheme(mode) as ThemeOptions;
-
+  console.log("optionsTheme", optionsTheme);
   const theme: Theme = React.useMemo(() => createTheme(optionsTheme), [mode]);
-
+  console.log("theme", theme);
   return <MuiThemeProvider theme={theme}>{children}</MuiThemeProvider>;
 }
